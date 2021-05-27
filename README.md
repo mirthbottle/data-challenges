@@ -5,9 +5,9 @@ A common challenge encountered when working with data related to financial entit
 
 Your task is to use the PostgreSQL schema and tables contained in [data.dmp](/query_optimization/data.dmp?raw=true) to summarize some (E)nvironmental, (S)ocial, (G)overnance, and Total Impact scores for fictitious entities listed on the S&P 500. Your requirements are as follows:
 * Determine the most efficient method of joining the included `sp500`, `id_map`, and `esg_scores` tables
-* Create a new `sp500_esg_scores` table that lists all available identifier, descriptive, and score columns for the S&P 500 constituent entities
+* Create a new `sp500_esg_scores` table that lists all available id, name, and score columns for the S&P 500 constituent entities
 * Add a `rank` column to the new `sp500_esg_scores` table that ranks the S&P 500 constituent entities by percentile on `total_score` in ascending order
-* Add a TOTAL row to the `sp500_esg_scores` table that shows the median value for each score column across the S&P 500 constituents 
+* Add a MEDIAN row to the `sp500_esg_scores` table that shows the median value for each score column across the S&P 500 constituents 
 * Make sure that where S&P 500 constituent entities are missing score values they still appear in the `sp500_esg_scores` table and are ranked in the 0 percentile
 
 Your submission should include a new `esg_analysis.dmp` file with the database code to replicate your solution as well as a `query.sql` file containing the SQL query used to produce the `sp500_esg_scores` table.
