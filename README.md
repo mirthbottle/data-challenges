@@ -21,6 +21,7 @@ Your code structure can take whatever you believe to be best (individual functio
 
 ## Submission
 When you are ready to submit your solution, please follow these instructions:
-* Fork this repo on your own GitHub account.
-* Commit all of your work to the fork, including all of your source code and configuration files, as well as any compiled files.
-* Submit a pull request to this repository and include any necessary instructions.
+* Please do not fork this repo to your own GitHub account!
+* Instead, download this repo to your local machine and create a new repo as a copy of it on your own GitHub account.
+* Commit all of your work to a new branch on your copy of the repo.
+* Submit your work via email as a .zip file containing your working branch of the repo and include any necessary instructions.
